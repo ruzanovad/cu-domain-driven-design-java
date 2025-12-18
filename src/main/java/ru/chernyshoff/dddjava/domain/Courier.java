@@ -11,6 +11,6 @@ public record Courier(
         String name,
         String transportType,
         String status,
-        List<Order> deliveries
+        List<UUID> orderIds
 ) {
 }
