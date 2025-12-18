@@ -11,6 +11,6 @@ public record Client(
         String name,
         String phone,
         String deliveryAddress,
-        List<Order> orders
+        List<UUID> orderIds
 ) {
 }

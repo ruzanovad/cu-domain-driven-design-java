@@ -11,6 +11,6 @@ public record Restaurant(
         String name,
         String address,
         double rating,
-        List<Dish> dishes
+        List<UUID> dishIds
 ) {
 }
